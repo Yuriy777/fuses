@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/aller_bd-webfont.woff2') format('woff2'),
+         url('../fonts/aller_bd-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/aller_it-webfont.woff2') format('woff2'),
+         url('../fonts/aller_it-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'aller_lightregular';
+    src: url('../fonts/aller_lt-webfont.woff2') format('woff2'),
+         url('../fonts/aller_lt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'allerregular';
+    src: url('../fonts/aller_rg-webfont.woff2') format('woff2'),
+         url('../fonts/aller_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?ouy6qa');
+  src:  url('../fonts/icomoon.eot?ouy6qa#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ouy6qa') format('truetype'),
+    url('../fonts/icomoon.woff?ouy6qa') format('woff'),
+    url('../fonts/icomoon.svg?ouy6qa#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e900";
+}
+.icon-cartin:before {
+  content: "\e901";
+}
+.icon-eye:before {
+  content: "\e902";
+}
+.icon-star:before {
+  content: "\e903";
+}
+.icon-search:before {
+  content: "\e904";
+}
+.icon-chevron-right:before {
+  content: "\f078";
+}
+.icon-share:before {
+  content: "\ea7d";
+}
+.icon-google-plus:before {
+  content: "\ea8b";
+}
+.icon-facebook:before {
+  content: "\ea90";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+.icon-flickr:before {
+  content: "\eaa3";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
